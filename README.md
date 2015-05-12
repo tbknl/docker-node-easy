@@ -14,7 +14,7 @@ Dockerfile for building an easy-to-use NodeJs docker container.
 * Make sure that the `package.json` file of your NodeJs project contains a `main` entry.
 * In your NodeJs project's root directory (there where the `package.json` file is), create a file called `Dockerfile` and add one line to it (NOTE: change `<version>` to the required version tag, e.g. '0.1'):
 ```
-FROM tbknl/docker-node-easy:<version>
+FROM tbknl/node-easy:<version>
 ```
 * You can of course add more lines to the dockerfile, for example to expose a network port or add an environment variable.
 * Assuming that your docker daemon is running, run (from your project's root directory):
